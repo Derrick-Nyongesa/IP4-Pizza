@@ -5,7 +5,7 @@ Derrick Nyongesa
 
 
 ## Description of project
-This is a web application for a fictional online pizza shop called L'ora della where a customer can order different sizes of pizzas with one or more toppings can can choose waht kind of crust he or she would like the pizza to have. The customer can decide whether to physically pickup the order or have it delivered to a specific location by the shop at a fee. This webs application layout has been designed using **Boostrap** and **Custom CSS**. The page interraction has been achieved using **jQuery**. The To get the total amount incurred by the customer has been achieved using **Constructors** and **Prototypes**.
+This is a web application for a fictional online pizza shop called L'ora della where a customer can order different sizes of pizzas with one or more toppings can can choose waht kind of crust he or she would like the pizza to have. The customer can decide whether to physically pickup the order or have it delivered to a specific location by the shop at a fee. This webs application layout has been designed using **Boostrap** and **Custom CSS**. The page interraction has been achieved using **jQuery**. To get the total amount incurred by the customer has been achieved using **Constructors** and **Prototypes**.
 
 
 ## Project setup instructions
