@@ -27,7 +27,7 @@ git clone https://github.com/Derrick-Nyongesa/IP4-Pizza.git
 * [jQuery](https://code.jquery.com/)
 
 ## Link to live site on GitHub Pages
-[Derrick Nyongesa https://derrick-nyongesa.github.io/ip4-pizza-project/](https://derrick-nyongesa.github.io/ip4-pizza-project/)
+[Derrick Nyongesa https://derrick-nyongesa.github.io/ip4-pizza-project/](https://derrick-nyongesa.github.io/ip4-pizza/)
 
 
 ## Contact Information 
