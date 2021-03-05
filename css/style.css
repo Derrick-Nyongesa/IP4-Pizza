@@ -60,6 +60,18 @@ img{
 }
 
 
+.button{
+    padding: 1rem;
+    background-color:#f96816;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+
 .cartItem{
     color: #0088cc;
     cursor: pointer;
