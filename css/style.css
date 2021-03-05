@@ -8,6 +8,16 @@ body{
 }
 
 
+
+header{
+    border-bottom: #f96816 5px solid;
+}
+
+.highlight{
+    color:#f96816;
+    font-weight: bold;
+}
+
 nav{
     text-align: center;
 }
