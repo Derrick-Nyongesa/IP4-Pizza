@@ -54,6 +54,12 @@ img{
 }
 
 
+.box{
+    background-color: #0088cc;
+    padding: 25px;
+}
+
+
 .cartItem{
     color: #0088cc;
     cursor: pointer;
