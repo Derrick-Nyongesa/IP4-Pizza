@@ -75,4 +75,9 @@ $(document).ready(function() {
         $("#show-pizza").hide();
         $(".pickup-delivery").show();
     });
+
+    $("button#pickup").click(function() {
+        $(".pickup-delivery").hide();
+        $(".pickupNow").show();
+    });
 });
