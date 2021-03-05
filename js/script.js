@@ -93,10 +93,17 @@ $(document).ready(function() {
             $("#modal-body").html(" Hello " + userName + ", Please pick your order immediately. Thank you for shopping on L'ora della Pizza");
             $("#modalLabel").html("Your Order has been successfully confirmed.");
             myModal.show();
-          } else {
+        } else {
             $("#modal-body").html("Please enter your name!!");
             $("#modalLabel").html("Invalid input!");
              myModal.show();
-          }
+        }
+    });
+
+    $("button#delivery").click(function() {
+        total += 300;
+        $(".total-cart").text(total);
+        $(".pickup-delivery").hide();
+        $(".deliveryNow").show();
     });
 });
