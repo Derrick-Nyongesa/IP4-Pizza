@@ -72,6 +72,11 @@ img{
 }
 
 
+.button2{
+    margin: 15px;
+}
+
+
 .cartItem{
     color: #0088cc;
     cursor: pointer;
