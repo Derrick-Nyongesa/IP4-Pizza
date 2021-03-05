@@ -36,6 +36,11 @@ nav p{
     display: inline;
 }
 
+img{
+    height: 199px;
+    width: 199px;
+}
+
 #img1{
     position: absolute;
     top: 0%;
