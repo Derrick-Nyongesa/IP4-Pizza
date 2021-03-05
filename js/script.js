@@ -80,4 +80,23 @@ $(document).ready(function() {
         $(".pickup-delivery").hide();
         $(".pickupNow").show();
     });
+
+    $("button#button-pickup").click(function(event) {
+        event.preventDefault();
+        var userName = $("input#pickupName").val();
+        $(".name-input").text(userName);
+        $("form#pickupForm").hide();
+        $(".cartWell").hide();
+        $("form#pizza").hide();
+        var myModal = new bootstrap.Modal(document.getElementById('modal'), {backdrop: true});
+        if (userName){
+            $("#modal-body").html(" Hello " + userName + ", Please pick your order immediately. Thank you for shopping on L'ora della Pizza");
+            $("#modalLabel").html("Your Order has been successfully confirmed.");
+            myModal.show();
+          } else {
+            $("#modal-body").html("Please enter your name!!");
+            $("#modalLabel").html("Invalid input!");
+             myModal.show();
+          }
+    });
 });
