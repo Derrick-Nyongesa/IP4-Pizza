@@ -82,6 +82,12 @@ h2{
 }
 
 
+footer{
+    text-align: center;
+    background-color: #f96816;
+}
+
+
 .cartItem{
     color: #0088cc;
     cursor: pointer;
