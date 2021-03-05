@@ -29,6 +29,14 @@ Pizza.prototype.cost = function() {
     this.price = price;
 }
 
+Pizza.prototype.toppingsList = function() {
+    if (this.toppings.length > 0) {
+        return this.toppings.join(", ");
+    } else {
+      return "None";
+    }
+}
+
 
 // User Interface Logic
 $(document).ready(function() {
