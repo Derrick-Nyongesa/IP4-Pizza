@@ -1,4 +1,14 @@
 
+.cartItem{
+    color: #0088cc;
+    cursor: pointer;
+}
+
+.cartItem:hover{
+    color: #f96816;
+    font-weight: bold;
+}
+
 .cartWell, 
 .pickup-delivery, 
 .pickupNow, 
