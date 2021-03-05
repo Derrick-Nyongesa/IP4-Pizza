@@ -70,4 +70,9 @@ $(document).ready(function() {
         });
         $("#pizza")[0].reset();
     });
+
+    $("button#checkout").click(function() {
+        $("#show-pizza").hide();
+        $(".pickup-delivery").show();
+    });
 });
