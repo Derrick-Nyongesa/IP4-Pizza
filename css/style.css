@@ -32,6 +32,7 @@ nav p{
 }
 
 
+
 #images{
     display: inline;
 }
@@ -54,10 +55,12 @@ img{
 }
 
 
+
 .box{
     background-color: #0088cc;
     padding: 25px;
 }
+
 
 
 .button{
@@ -77,9 +80,11 @@ img{
 }
 
 
+
 h2{
     color: #0088cc;
 }
+
 
 
 footer{
@@ -104,6 +109,8 @@ footer{
     color: #f96816;
 }
 
+
+
 .cartItem{
     color: #0088cc;
     cursor: pointer;
@@ -113,6 +120,7 @@ footer{
     color: #f96816;
     font-weight: bold;
 }
+
 
 
 .cartWell, 
