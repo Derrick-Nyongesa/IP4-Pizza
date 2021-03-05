@@ -106,4 +106,23 @@ $(document).ready(function() {
         $(".pickup-delivery").hide();
         $(".deliveryNow").show();
     });
+
+    $("button#submitDeliveryForm").click(function(event) {
+        event.preventDefault();
+        var userName = $("input#deliveryName").val();
+        var address = $("input#address").val();
+        $(".cartWell").hide();
+        $("form#pizza").hide();
+        $("form#deliveryForm").hide();
+        var myModal = new bootstrap.Modal(document.getElementById('modal'), {backdrop: true});
+        if (userName && address){
+            $("#modal-body").html(" Hello " + userName + ", your order will be delivered to your location. Thank you for shopping on L'ora della Pizza");
+            $("#modalLabel").html("Your Order has been successfully confirmed.");
+            myModal.show();
+        } else {
+            $("#modal-body").html("Please enter your name and address!!");
+            $("#modalLabel").html("Invalid input!");
+             myModal.show();
+        }
+    });
 });
