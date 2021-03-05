@@ -97,6 +97,13 @@ footer{
     font-size: 15px;
 }
 
+
+
+#modal-body,
+#modalLabel{
+    color: #f96816;
+}
+
 .cartItem{
     color: #0088cc;
     cursor: pointer;
