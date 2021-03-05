@@ -88,6 +88,15 @@ footer{
 }
 
 
+
+.text-input{
+    background-color: #000000;
+}
+
+.top{
+    font-size: 15px;
+}
+
 .cartItem{
     color: #0088cc;
     cursor: pointer;
