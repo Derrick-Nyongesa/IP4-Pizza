@@ -27,6 +27,39 @@
             <p class="lead">We Create Custom, personal pizzas with quality ingredients in only five minutes</p>
         </div>
     </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Order Now!!</h2>
+                <form id="pizza">
+                    <label for="size">Choose the size of the pizza you want</label>
+                    <select class="form-control" id="size">
+                        <option selected value="">Select size here</option>
+                        <option value="large">Large @ Ksh.1200</option>
+                        <option value="medium">Medium @ Ksh.800</option>
+                        <option value="small">Small @ Ksh.650</option>
+                    </select><br>
+                    <label for="size">Choose what kind of crust you would like the pizza to have</label>
+                    <select class="form-control" id="crust">
+                        <option selected value="">Select crust here</option>
+                        <option value="crispy"> Crispy @ Ksh.300</option>
+                        <option value="stuffed">Stuffed @ Ksh.250</option>
+                        <option value="glutten-free">Glutten-free @ Ksh.200</option>
+                    </select><br>
+                    <label for="toppings">Choose the topping(s) you would want on your pizza @ Ksh.100 each</label>
+                    <div class="form-group top">
+                        <input type="checkbox" name="topping" value="cherry-tomatoes"> Cherry Tomatoes
+                        <input type="checkbox" name="topping" value="scallion-eggs"> Scallion Eggs
+                        <input type="checkbox" name="topping" value="grilled-vegetables"> Grilled Vegetables
+                        <input type="checkbox" name="topping" value="mushrooms"> Mushrooms
+                    </div><br>
+      
+                  <button type="submit" class="btn btn-outline-success button2">Add to Cart  <i class="fas fa-shopping-cart"></i></button>
+                </form>
+              </div>
+        </div>
+    </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="js/jquery-3.5.1.js"></script>
