@@ -28,3 +28,38 @@ Pizza.prototype.cost = function() {
     }
     this.price = price;
 }
+
+
+// User Interface Logic
+$(document).ready(function() {
+    var total = 0;
+    $(".total-cart").text(total);
+    $("#pizza").submit(function(event) {
+        event.preventDefault();
+        var crust = $("#crust").val();
+        var size = $("#size").val();
+        var newPizza = new Pizza(size, crust);
+
+        $("input:checkbox[name=topping]:checked").each(function() {
+            var toppingChoice = $(this).val();
+            newPizza.toppings.push(toppingChoice);
+        });
+
+        newPizza.cost();
+        total += newPizza.price;
+
+        $(".total-cart").text(total);
+        $(".cartWell").show();;
+        $("#cartHeader").show();
+        $("ol#cart").append("<li><span class='cartItem'>" + newPizza.size + " " + newPizza.crust + " Pizza" + "</span></li>");
+
+        $(".cartItem").last().click(function() {
+            $("#show-pizza").show();
+            $(".size").text(newPizza.size);
+            $(".crust").text(newPizza.crust);
+            $(".toppings").text(newPizza.toppingsList());
+            $(".cost").text(newPizza.price);
+        });
+        $("#pizza")[0].reset();
+    });
+});
