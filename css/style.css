@@ -1,4 +1,15 @@
 
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+
 .cartItem{
     color: #0088cc;
     cursor: pointer;
@@ -8,6 +19,7 @@
     color: #f96816;
     font-weight: bold;
 }
+
 
 .cartWell, 
 .pickup-delivery, 
