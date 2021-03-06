@@ -130,3 +130,9 @@ footer{
 #show-pizza {
     display: none;
 }
+
+@media screen and (max-width: 808px) {
+    img{
+        display: none;
+    }
+}
